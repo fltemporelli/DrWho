@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+
+background:#151515;
+
+}
+
+#contenedor{
+background-image:url(img/background.jpg);
+width:960px;
+height:1020px;
+margin:0 auto;
+padding:0;
+background-size:100%;
+background-repeat:no-repeat;
+}
+
+header{
+height:414px;
+width:100%;
+margin:0;
+background-image:url(img/tira.png);
+background-repeat:no-repeat;
+background-position:bottom;
+margin-top:-20px;
+}
+
+header h1{
+	font-size:140px;
+	margin:0;
+    font-family:"Doctor";
+	color:#10154C;
+	position:relative;
+	top:320px;
+	left:100px;
+}
+
+nav ul{
+	padding:0;
+	margin-top:10px;
+	margin-bottom:0;
+	width:883px;
+	position:relative; 
+	left:36px;
+	margin-left:2px;
+	margin-right:0;
+
+}
+
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	width:439px;
+	text-align:center;
+	padding:0;
+	background-color:#000;
+	border:1px solid #59ABC5;
+	margin-left:-2px;
+}
+
+a {
+	text-decoration:none;
+	font-family:"Calibri";
+	color:#FFFFFF;
+}
+
+a:hover{
+	color:#999999;
+}
+
+main{
+	width:883px;
+	height:473px;
+	background-color:#000000;
+	overflow:hidden;
+	position:relative; 
+	left:36px;
+	border-left:1px solid #59ABC5;
+	border-right:1px solid #59ABC5;
+	border-bottom: 1px solid #59ABC5;
+}
+
+
+main img{
+	margin-left:36px;
+    height:473px; 
+}
+
+main h2{
+	font-family:"Calibri";
+	text-align:center;
+	color:#303;
+}
+
+main p{
+	font-family:"Calibri";
+	font-size:14px; 
+}
+
+article{
+   width:568px;
+   height:444px;
+   background-color:#CCCCFF;
+   margin-left:20px;
+   margin-top:-20px;
+   
+}
+
+footer p{
+    font-family:"Milasian"; 
+	font-size:30px;
+	width:inherit;
+	text-align:center;
+	margin-top:50px; 
+}
+
+footer img{
+	margin-top:10px;
+	margin-bottom:-40px;
+	margin-left:460px;
+}
+
+section{
+	width:876px;
+	height:878px; 
+	margin:0 43px;
+	background-color:#0D0C35;
+	overflow:hidden;
+}
+
+section h2{
+	font-family:"Milasian";
+	font-size:42px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+figure{
+	border:1px solid #FFF;
+}
+figure img{
+	width:348px; 
+	height:327px; 
+}
+
+#tardis{
+	margin-left:35px;
+}
+
+figcaption{
+	background-color:#FFFFFF;
+	text-align:center;
+	font-family:"Calibri"; 
+	font-size:20px;
+	color:#000066;
+	font-weight:400;
+}
+
+/*Fonts*/
+
+@font-face{
+	font-family:"Doctor";
+    src:url(Fonts/Doctor-Who.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+	font-family:"Milasian";
+	src:url(Fonts/MilasianCircaMediumPERSONAL.ttf) format('truetype');
+	font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+	font-family:"Calibri"; 
+	src:url(Fonts/calibril.ttf) format('truetype');
+	font-weight:normal;
+    font-style:normal;
+}
+
+		
+
+/*Columnas*/
+.col{
+	float:left;
+}
+
+#derecha{
+	margin-left:-50px;
+    margin-top:-25px;
+}
+
+#izquierda{
+    margin-top:-25px;
+}
